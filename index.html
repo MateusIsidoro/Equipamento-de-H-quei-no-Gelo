@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipamento de Hóquei no Gelo</title>
+    <link rel="shortcut icon" href="hoq.ico" type="image/x-icon">
+    <style>
+
+        body{
+            margin: 0;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            background-image: url(fundo.png);
+            background-size: cover;
+            overflow-x: hidden;
+            backdrop-filter: blur(10px);
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 45%;
+            height: 100%;
+            border-radius: 20px;
+            background-color: rgba(240, 248, 255, 0.452);
+            box-shadow: 3px  3px 3px 3px rgba(0, 0, 0, 0.301);
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            backdrop-filter: blur(10px);
+        }
+        .button{
+            border: none;
+            border-radius: 25px;
+            width: 50px;
+            background-color: green;
+        }
+        .button:hover{
+            background-color: rgb(5, 82, 5);
+        }
+        .arruma{
+            width: 100%;
+            height: 20px;
+            margin: 10px;
+        }
+        .h1{
+            justify-self: flex-start;
+            align-self: flex-start;
+        }
+        .arruma2{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: start;
+            text-align: start;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <h1>Verificador de Equipamento Para um jogo Hóquei no Gelo</h1>
+        <div class="arruma2">
+
+            <div class="arruma">
+                <input type="checkbox" name="1" class="check" required>
+                <label for="1">Patins</label>
+            </div>
+    
+            <div class="arruma">
+                <input type="checkbox" name="2" class="check" required>    
+                <label for="2" >Disco</label>
+            </div>
+            
+    
+            <div class="arruma">
+                <input type="checkbox" name="3" class="check" required>    
+                <label for="3">Tacos</label>
+            </div>
+            
+        </div>
+
+        <h2>Proteções</h2>
+
+        <div class="arruma2">
+            
+            <div class="arruma">
+                <input type="checkbox" name="4" class="check" required>    
+                <label for="4">Capacetes</label>
+            </div>
+            
+    
+            <div class="arruma">
+                <input type="checkbox" name="5" class="check" required>    
+                <label for="5">Luvas</label>
+            </div>
+    
+            <div class="arruma">
+                <input type="checkbox" name="6" class="check" required>
+                <label for="6">Joelheiras</label>
+            </div>
+    
+            <div class="arruma">
+                <input type="checkbox" name="7" class="check" required>    
+                <label for="7">Caneleiras</label>
+            </div>
+    
+            <div class="arruma">   
+                <input type="checkbox" name="8" class="check" required>
+                <label for="8">Cotoveleiras</label>
+            </div>
+    
+            <div class="arruma">     
+                <input type="checkbox" name="9" class="check" required>
+                <label for="9">Ombreiras</label>
+            </div>
+            <div class="arruma">
+                <input type="checkbox" name="0" class="check" required>
+                <label for="0">Protetor Bucal</label>
+            </div>
+            
+            <div class="arruma">            
+                <input type="checkbox" name="10" class="check" required>
+                <label for="10">Protetor de Pescoço</label>
+            </div>
+        </div>
+
+        <input type="submit" value="Enviar" class="button">
+    </form>    
+<script defer>
+
+</script>
+</body>
+</html>
